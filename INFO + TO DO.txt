@@ -1,0 +1,30 @@
+EDIT IN :
+search_ajax_callback.php -
+1. date db
+2. $_PAGE_URL
+3. $STEAM_API_KEY
+4. $_SERVER_NAME
+5. $_SITE_NAME
+/application -
+1. connect (date db)
+2. this ($_perPage, $_PAGE_URL [calea completa], $_SITE_NAME, $_SERVER_NAME, $_SITE_TITLE, $_CONTACT_EMAIL, $_ENABLE_RSC)
+3. user ($STEAM_API_KEY, $ENABLE_REGISTRATION, $ENABLE_REGISTRATION_WITH_STEAM, $ENABLE_LOGIN, $USER_SV_LOGIN_INFO, $ENABLE_AUTO_PW_RECOVER, $AUTO_UNLOG_AFTER)
+/system - 
+1. FTPM (config.inc.php)
+/views -
+1. /general/header.ic.php - logo between '<a href="<?php echo this::$_PAGE_URL; ?>" id="siteLogo">HERE</a>'
+2. server.ic.php ($M->Connect("193.84.64.245","27015","");)
+
+* FTP or Server Status not working on the panel? it's from the host.., speak with them to add the ip from the site(webhost of panel) to the whitelist; if you have errors with something like fsopen/socket/curl/zip/gzip/xml/url, see the php settings on the site(where is the panel hosted) and enable them..(or speak with your webhost provider)
+
+
+TO DO :
+1. CFG WITH :
+	- head group(position to be readed as BOSS etc..)
+	- + all in .cfg
+	- .... ???
+
+
+THIS IS NOT AN ORIGINAL WEBSITE, it's been copy and paste by some morrons :D Enjoy
+ORIG. -
+play.dual-gaming.ro / support@develab.uk
